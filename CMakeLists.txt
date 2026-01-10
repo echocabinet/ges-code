@@ -1,6 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
 project(gesource)
 
-cmake_minimum_required(VERSION 2.8.12)
 set(GESOURCE_VERSION "5.0.0")
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
