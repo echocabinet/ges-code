@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GoldenEye: Source Installer
+Comment=Set up GoldenEye: Source to run on Linux via Steam
+Exec=gesource-installer
+Icon=com.geshl2.GESource
+Type=Application
+Categories=Game;
+Keywords=GoldenEye;Source;Steam;Mod;
