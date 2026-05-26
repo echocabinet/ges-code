@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.geshl2.GESource</id>
+  <name>GoldenEye: Source Installer</name>
+  <summary>Install GoldenEye: Source for Linux via Steam</summary>
+  <description>
+    <p>
+      GoldenEye: Source is a free fan-made recreation of the classic
+      GoldenEye 007 N64 multiplayer experience, built on Valve's
+      Source SDK 2013 engine.
+    </p>
+    <p>
+      This installer places your GES content into the correct Steam
+      sourcemods directory and walks you through the necessary Steam
+      configuration to get the game running — natively on Linux if
+      Linux binaries are present, or through Steam Proton (Windows
+      compatibility layer) otherwise.
+    </p>
+    <p>Requirements:</p>
+    <ul>
+      <li>Steam installed (native or Flatpak)</li>
+      <li>Source SDK Base 2013 Multiplayer installed via Steam (free)</li>
+      <li>GoldenEye: Source content archive or folder</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">com.geshl2.GESource.desktop</launchable>
+
+  <url type="homepage">https://www.geshl2.com</url>
+  <url type="bugtracker">https://github.com/echocabinet/ges-code/issues</url>
+
+  <project_license>GPL-3.0-only</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
+
+  <provides>
+    <binary>gesource-installer</binary>
+  </provides>
+
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-realistic">moderate</content_attribute>
+  </content_rating>
+</component>
